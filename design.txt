@@ -1,0 +1,13 @@
+GET /hello/warm
+
+// Success
+Code = 200
+{
+    "message": "Hello warm"
+}
+
+// Failure :: user not found
+Code = 404
+{
+    "message": "User=other not found"
+}
